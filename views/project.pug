@@ -8,7 +8,7 @@ block content
       .cell.small-6.medium-9.large-9
 
 
-        h1 project.project_name
+        h1= project.project_name
 
 
         p.lead.text-light= project.description
@@ -19,12 +19,10 @@ block content
 
         ul
           each technology in project.technologies
-          li= technology
+            li= technology
 
 
         a.button.expanded(target ="_blank" href=project.live_link) Live Demo
         a.button.expanded(target ="_blank" href=project.github_link) GitHub Repo
 
       img.image(src=`/static/${project.image_urls[1]}`)
-    //-  img.image(src=`/static/${project.image_urls[2]}`)
-    //-  img.image(src=`/static/${project.image_urls[3]}`)

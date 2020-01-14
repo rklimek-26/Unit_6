@@ -1,21 +1,8 @@
+//add variables to require dependencies
 const express = require('express');
 const app = express();
 const data = require('./data.json');
 const {projects} = data;
-
-// //add variables to require dependencies
-// const express = require('express');
-// const bodyParser = require('body-parser');
-// const path = require('path');
-// const app = express();
-//
-// const { projects } = require('../data.json');
-//
-// //const { projects } = require('./data/data.json');
-//
-// app.use(bodyParser.urlencoded({ extended: false}));
-// //const router = express.Router();
-// //TESTING
 
 //set view engine to pug
 app.set('view engine', 'pug');
@@ -32,8 +19,7 @@ const projectRouter = require('./routes/project');
 app.use(indexRouter);
 app.use(aboutRouter);
 app.use(projectRouter);
-// app.use('/about', aboutRouter);
-// app.use('/project', projectRouter);
+
 
 //error handeling
 app.use((req, res, next) => {
@@ -49,6 +35,7 @@ app.use((err, req, res, next) => {
     res.render('error')
 });
 
+//set up server for http://localhost:3000/
 app.listen(3000, () => {
     console.log('The application is running on localhost:3000!')
 });
