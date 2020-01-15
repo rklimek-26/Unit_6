@@ -1,34 +1,43 @@
 {
-  "projects":
-    [{
-      "id": 0,
-      "project_name": "Interactive Form",
-      "description": "This is a form built in jQuery with validations set on some fields using Regex.",
-      "technologies": ["jQuery", "Html", "Css", "Regex"],
-      "live_link": "https://rklimek-26.github.io/Unit3/",
-      "github_link": "https://github.com/rklimek-26/Unit3",
-      "image_urls":["img/project3shot1.png",
-                    "img/project3shot2.png"]
-      },
-      {
-      "id": 1,
-      "project_name": "Phrase Hunter",
-      "description": "Phrase Hunter is a game, where you select letters one by one and try and fill in the hidden phrase.",
-      "technologies": ["JavaScript", "Html", "Css", "OOP", "Instantiation"],
-      "live_link": "https://rklimek-26.github.io/Unit4/",
-      "github_link": "https://github.com/rklimek-26/Unit4",
-      "image_urls":["img/project4shot1.png",
-                   "img/project4shot2.png"]
-      },
-      {
-      "id": 2,
-      "project_name": "Public API Call",
-      "description": "Sends a request for 12 random users to an API. Also generates a modal to take a closer look at individuals.",
-      "technologies": ["jQuery", "Html", "Css", "API", "JSON"],
-      "live_link": "https://rklimek-26.github.io/Unit_5_Project/",
-      "github_link": "https://github.com/rklimek-26/Unit_5_Project",
-      "image_urls":["img/project5shot1.png",
-                   "img/project5shot2.png"]
-
-      }
-      ]}
+	"projects": [{
+		"id": 0,
+		"project_name": "Random Quote Generator",
+		"description": "Generates a quote from a list of quotes.",
+		"technologies": ["JavaScript", "Html", "Css"],
+		"live_link": "https://rklimek-26.github.io/Unit1/",
+		"github_link": "https://github.com/rklimek-26/Unit1",
+		"image_urls": ["img/project1shot1.png", "img/project1shot2.png","img/project1shot3.png"]
+	}, {
+		"id": 1,
+		"project_name": "Pagination Links and Filtering",
+		"description": "Generate pagination links dynamically and filter users.",
+		"technologies": ["jQuery", "Html", "Css", "Regex"],
+		"live_link": "https://rklimek-26.github.io/Unit2/",
+		"github_link": "https://github.com/rklimek-26/Unit2",
+		"image_urls": ["img/project2shot1.png", "img/project2shot2.png", "img/project2shot3.png"]
+	}, {
+		"id": 2,
+		"project_name": "Interactive Form",
+		"description": "This is a form built in jQuery with validations set on some fields using Regex.",
+		"technologies": ["jQuery", "Html", "Css", "Regex"],
+		"live_link": "https://rklimek-26.github.io/Unit3/",
+		"github_link": "https://github.com/rklimek-26/Unit3",
+		"image_urls": ["img/project3shot1.png", "img/project3shot2.png", "img/project3shot3.png"]
+	}, {
+		"id": 3,
+		"project_name": "Phrase Hunter",
+		"description": "Phrase Hunter is a game, where you select letters one by one and try and fill in the hidden phrase.",
+		"technologies": ["JavaScript", "Html", "Css", "OOP", "Instantiation"],
+		"live_link": "https://rklimek-26.github.io/Unit4/",
+		"github_link": "https://github.com/rklimek-26/Unit4",
+		"image_urls": ["img/project4shot1.png", "img/project4shot2.png", "img/project4shot3.png"]
+	}, {
+		"id": 4,
+		"project_name": "Public API Call",
+		"description": "Sends a request for 12 random users to an API. Also generates a modal to take a closer look at individuals.",
+		"technologies": ["jQuery", "Html", "Css", "API", "JSON"],
+		"live_link": "https://rklimek-26.github.io/Unit_5_Project/",
+		"github_link": "https://github.com/rklimek-26/Unit_5_Project",
+		"image_urls": ["img/project5shot1.png", "img/project5shot2.png", "img/project5shot3.png"]
+	}]
+}
